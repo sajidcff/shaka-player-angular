@@ -69,10 +69,12 @@ export class ShakaPlayerComponent implements AfterViewInit {
     //   });
     // }
 
-    let videoUrl = "http://amssamples.streaming.mediaservices.windows.net/bc57e088-27ec-44e0-ac20-a85ccbcd50da/TearsOfSteel.ism/manifest(format=mpd-time-csf)";
-    if (this.platform.SAFARI) {
-      videoUrl = "http://demo.unified-streaming.com/video/tears-of-steel/tears-of-steel.ism/.m3u8";
-    }
+    //let videoUrl = "http://amssamples.streaming.mediaservices.windows.net/bc57e088-27ec-44e0-ac20-a85ccbcd50da/TearsOfSteel.ism/manifest(format=mpd-time-csf)";
+
+    let videoUrl = "http://34.102.166.253/rick_and_morty_test_video/rick_and_morty_test_video.mpd";
+    // if (this.platform.SAFARI) {
+    //   videoUrl = "http://demo.unified-streaming.com/video/tears-of-steel/tears-of-steel.ism/.m3u8";
+    // }
 
     let captionUrlEn = "http://amssamples.streaming.mediaservices.windows.net/bc57e088-27ec-44e0-ac20-a85ccbcd50da/TOS-en.vtt";
     let captionUrlEs = "http://amssamples.streaming.mediaservices.windows.net/bc57e088-27ec-44e0-ac20-a85ccbcd50da/TOS-es.vtt";

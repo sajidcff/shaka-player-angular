@@ -1,5 +1,8 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "cli": {
+    "analytics": "9f1d893d-f926-4b00-aac9-585714e760bf"
+  },
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
@@ -29,11 +32,11 @@
             "styles": [
               "src/styles.css",
               "src/controls.css",
-              "src/amsterdam-acid-blue.css"
+              "src/youtube-theme.css"
             ],
             "scripts": [
               "src/shaka-player.ui.debug.js",
-              "src/amsterdam-acid-blue.js",
+              "src/youtube-script.js",
               "node_modules/jquery/dist/jquery.min.js"
             ]
           },
